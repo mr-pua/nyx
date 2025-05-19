@@ -1,6 +1,6 @@
 # 🔮 Nyx - Secure CLI Chat System
 
-![Nyx Banner](https://i.imgur.com/JQhV3Rn.png)  
+![Nyx Banner](Screenshot_2025-05-19_06_07_18.png)  
 *"Communicate in the shadows with Nyx - the goddess of night-inspired secure chat"*
 
 ## 🌌 Features
@@ -22,7 +22,7 @@ Prerequisites
 
     pip package manager
 
-bash
+```bash
 
 # Clone the repository
 git clone https://github.com/yourusername/nyx-chat.git
@@ -32,10 +32,10 @@ cd nyx-chat
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 🚀 Quick Start
 Hosting a Channel
-bash
+```bash
 
 python3 nyx.py
 [1] Host a channel
@@ -44,9 +44,9 @@ Enter channel name: Olympus
 Enter channel password: ********
 
 ✔ Server started on 192.168.1.15:5050
-
+```
 Joining a Channel
-bash
+```bash
 
 python3 nyx.py
 [2] Join a channel
@@ -56,15 +56,16 @@ Enter channel password: ********
 Enter host IP: 192.168.1.15
 
 ✔ Connected to channel 'Olympus'
-
+```
 📜 Command Reference
 Command	Description
-/exit	Leave the channel gracefully
+```/exit	Leave the channel gracefully
 /users	List active users in channel
 /ping	Check server response time
 /clear	Clear your chat history
+```
 🌐 Network Diagram
-Diagram
+```Diagram
 Code
 
 graph TD
@@ -74,7 +75,7 @@ graph TD
     B -->|Broadcast| A
     B -->|Broadcast| C
     B -->|Broadcast| D
-
+```
 🔒 Security Protocol
 
     AES-256 channel encryption
@@ -88,14 +89,14 @@ graph TD
     No message logs persisted on server
 
 🧪 Testing Suite
-bash
+```bash
 
 # Run unit tests
 python -m unittest discover tests
 
 # Run network stress test
 python tests/stress_test.py -c 50 -t 60
-
+```
 📊 Performance Metrics
 Metric	Value
 Connection Time	< 200ms
@@ -119,8 +120,8 @@ Memory Usage	0.8MB/client
 Distributed under the MIT License. See LICENSE for more information.
 ☎️ Contact
 
-Project Maintainer - @NyxTeam
-Email - nyx@securechat.org
+Project Maintainer - @mr-pua
+
 🙏 Acknowledgments
 
     Inspired by ancient Greek mythology
@@ -130,5 +131,3 @@ Email - nyx@securechat.org
     Color schemes from Dracula Terminal
 
     Security auditing by OpenSSF
-
-"""
